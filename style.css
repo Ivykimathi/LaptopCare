@@ -1,0 +1,323 @@
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    top: 0;
+}
+.header ul{
+    display: flex;
+    list-style: none;
+    margin: 30px 0px;
+}
+.header ul li{
+    font-family: century;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+.header ul .main{
+    padding: 15px;
+    border-radius: 300px;
+    background: green;
+    color: white;
+}
+.header ul .icons a{
+    text-decoration: none;
+    color: black;
+    padding: 8px 25px;
+    transition: all 0.5 ease;
+}
+#search{
+  background: transparent;
+}
+/*-------------------home------------------------*/
+#home{
+    display: flex;
+    flex-direction: column;
+    height: 540px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+#home::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: url("1.jpg") no-repeat center/cover;
+    height: 600px;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.8;
+}
+span{
+    color: green;
+    font-size: 50px;
+}
+/*---------------------sales and services-----------------*/
+.sales{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    color: green;
+}
+img{
+    width: 350px;
+    height: 270px;
+}
+.row1{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+div.row1 div.col1{
+    height: 350px;
+    width: 270px;
+    background-color: white;
+    margin-right: 90px;
+    margin-bottom: 30px;
+    border: 1px solid aliceblue;
+    transition: all 0.9s ease;
+}
+div.row1 div.col2{
+    height: 350px;
+    width: 270px;
+    background-color: white;
+    margin-right: 90px;
+    margin-bottom: 30px;
+    border: 1px solid aliceblue;
+    transition: all 0.9s ease;
+}
+div.row1 div.col3{
+    height: 350px;
+    width: 270px;
+    background-color: white;
+    margin-right: 40px;
+    margin-bottom: 30px;
+    border: 1px solid aliceblue;
+    transition: all 0.9s ease;
+}
+.row2{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+div.row2 div.col4{
+    height: 350px;
+    width: 270px;
+    background-color: white;
+    margin-right: 90px;
+    margin-bottom: 30px;
+    border: 1px solid aliceblue;
+    transition: all 0.9s ease;
+}
+div.row2 div.col5{
+    height: 350px;
+    width: 270px;
+    background-color: white;
+    margin-right: 90px;
+    margin-bottom: 30px;
+    border: 1px solid aliceblue;
+    transition: all 0.9s ease;
+}
+div.row2 div.col6{
+    height: 350px;
+    width: 270px;
+    background-color: white;
+    margin-right: 40px;
+    margin-bottom: 30px;
+    border: 1px solid aliceblue;
+    transition: all 0.9s ease;
+}
+.advert{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/*--------------------------------ABOUT US---------------------------*/
+.about{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    color: black;
+}
+/*--------------------------------------------------------------
+#services
+--------------------------------------------------------------*/
+.services .icon-boxes h4 {
+    font-size: 18px;
+    color: #4b7dab;
+    margin-bottom: 15px;
+  }
+  .services .icon-boxes h3 {
+    font-size: 28px;
+    font-weight: 700;
+    color: green;
+    margin-bottom: 15px;
+  }
+  .services .icon-box {
+    margin-top: 40px;
+  }
+  .services .icon-box .icon {
+    float: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 64px;
+    height: 64px;
+    border: 2px solid #8dc2f1;
+    border-radius: 50px;
+    transition: 0.5s;
+  }
+  .services .icon-box .icon i {
+    color: #1977cc;
+    font-size: 32px;
+  }
+  .services .icon-box:hover .icon {
+    background: #1977cc;
+    border-color: #1977cc;
+  }
+  .services .icon-box:hover .icon i {
+    color: #fff;
+  }
+  .services .icon-box .title {
+    margin-left: 85px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    font-size: 18px;
+  }
+  .services .icon-box .title a {
+    color: #343a40;
+    transition: 0.3s;
+  }
+  .services .icon-box .title a:hover {
+    color: #1977cc;
+  }
+  .services .icon-box .description {
+    margin-left: 85px;
+  }
+/*----------------------------------------------
+--------------------------------------------------
+-------------------------------------------------
+====================================================
+===============================================
+--------------------------------------------------------------*/
+.contact .info {
+  width: 100%;
+  background: #fff;
+}
+.contact .info i {
+  font-size: 20px;
+  color: #1977cc;
+  float: left;
+  width: 44px;
+  height: 44px;
+  background: #d6e9fa;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  transition: all 0.3s ease-in-out;
+}
+.contact .info h4 {
+  padding: 0 0 0 60px;
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 5px;
+  color: #2c4964;
+}
+.contact .info p {
+  padding: 0 0 0 60px;
+  margin-bottom: 0;
+  font-size: 14px;
+  color: #4b7dab;
+}
+.contact .info .email, .contact .info .phone {
+  margin-top: 40px;
+}
+.contact .info .email:hover i, .contact .info .address:hover i, .contact .info .phone:hover i {
+  background: #1977cc;
+  color: #fff;
+}
+.contact .php-email-form {
+  width: 100%;
+  background: #fff;
+}
+.contact .php-email-form .form-group {
+  padding-bottom: 8px;
+}
+.contact .php-email-form .error-message {
+  display: none;
+  color: #fff;
+  background: #ed3c0d;
+  text-align: left;
+  padding: 15px;
+  font-weight: 600;
+}
+.contact .php-email-form .error-message br + br {
+  margin-top: 25px;
+}
+.contact .php-email-form .sent-message {
+  display: none;
+  color: #fff;
+  background: #18d26e;
+  text-align: center;
+  padding: 15px;
+  font-weight: 600;
+}
+.contact .php-email-form .loading {
+  display: none;
+  background: #fff;
+  text-align: center;
+  padding: 15px;
+}
+.contact .php-email-form .loading:before {
+  content: "";
+  display: inline-block;
+  border-radius: 50%;
+  width: 24px;
+  height: 24px;
+  margin: 0 10px -6px 0;
+  border: 3px solid #18d26e;
+  border-top-color: #eee;
+  -webkit-animation: animate-loading 1s linear infinite;
+  animation: animate-loading 1s linear infinite;
+}
+.contact .php-email-form input, .contact .php-email-form textarea {
+  border-radius: 0;
+  box-shadow: none;
+  font-size: 14px;
+}
+.contact .php-email-form input {
+  height: 44px;
+}
+.contact .php-email-form textarea {
+  padding: 10px 12px;
+}
+.contact .php-email-form button[type=submit] {
+  background: #1977cc;
+  border: 0;
+  padding: 10px 35px;
+  color: #fff;
+  transition: 0.4s;
+  border-radius: 50px;
+}
+.contact .php-email-form button[type=submit]:hover {
+  background: #1c84e3;
+}
+@-webkit-keyframes animate-loading {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+@keyframes animate-loading {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
